@@ -74,6 +74,8 @@ This project aims to demonstrate the ingestion of data from an API ([Open Brewer
 ├── poetry.lock                # Poetry lock file
 ├── pyproject.toml             # Python project and dependencies
 └── README.md                  # Project documentation
+```
+
 ---
 
 ## 🚀 How to Run the Project  
