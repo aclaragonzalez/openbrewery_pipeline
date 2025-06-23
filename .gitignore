@@ -1,0 +1,7 @@
+.env
+jars/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.cache/
+logs/

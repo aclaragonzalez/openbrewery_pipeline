@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "openbrewery-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["Ana Clara Gonzalez <gonzalez.anaclara@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+requests = "^2.32.4"
+pyyaml = "^6.0.2"
+pyspark = "3.5.1"
+pydeequ = "^1.5.0"
+apache-airflow = {version = "2.8.1", extras = ["celery", "postgres"]}
+psycopg2-binary = "^2.9.10"
+backoff = "^2.2.1"
+ruff = "^0.12.0"
+pre-commit = "^4.2.0"
+freezegun = "^1.5.2"
+pytest = "^8.4.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[tool.pytest.ini_options]
+norecursedirs = ["airflow/logs"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
