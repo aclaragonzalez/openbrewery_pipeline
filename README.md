@@ -97,6 +97,7 @@ To generate or update `requirements.txt` from your Poetry-managed dependencies, 
 
 ```bash
 poetry export -f requirements.txt --output requirements.txt --without-hashes
+```
 
 ### Steps  
 
